@@ -1,0 +1,17 @@
+1.What is the DOM?
+-  the data representation of the objects that comprise the structure and content of a document on the web
+
+2.What is an event?
+- An object which allows the addition and removal of listeners for a browser event
+
+3.What is an event listener?
+- interface represents an object that can handle an event dispatched by an EventTarget object
+
+4.Why would we convert a NodeList into an Array?
+- NodeList object is a list (collection) of nodes extracted from a document
+- Array is a special variable, which can hold more than one value at a time
+There things are different the NodeLists are not really js apis but for the browser api thats why we convert it over.
+
+5.What is a component?
+-a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps
+
