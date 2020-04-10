@@ -7,3 +7,26 @@
 //
 //  Each tab should look like this:
 //    <div class="tab">topic here</div>
+
+const topicsArray = {
+    "topics": ["javascript", "bootstrap", "technology", "jquery", "node.js"]
+}
+
+topicsArray.forEach(topic => {
+    axios.get("https://lambda-times-backend.herokuapp.com/topics")
+        .then((response) => {
+            console.log(tabs(response.data));
+            console.log(response)
+            let topics = response.data;
+            tab.appendChild(topics)
+
+        })
+        .catch(error => console.log(error))
+})
+
+
+axios.get("https://lambda-times-backend.herokuapp.com/topics")
+    .then((response) => {
+
+    })
+    .catch(error => console.log(error))
